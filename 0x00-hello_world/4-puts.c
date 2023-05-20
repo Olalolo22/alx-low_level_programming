@@ -1,9 +1,12 @@
-/**
- * main-Returns no value
- *
- * return: (0)
- */ 
 #include <stdio.h>
+/**
+ * main - Prints puts
+ * Description: prints "function followed by a new line"
+ *
+ * Return: 0 success
+ *
+ */
+
 
 int main(void)
 {
