@@ -2,27 +2,26 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Prints printf function
- *
- * Description - prints "the main function"
+ * main - Prints result using if and else statement
+ * Description - prints "negative ppositive and zero using if and else"
  * Return: 0 success
  */
 int main(void)
 {
 	int n;
-	    
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
 	if (n < 0)
 	{
-	printf("%d is negative\n", n);
+		printf("%d is negative\n", n);
 	}
 	else
 	{
 		if (n > 0)
 		{
-		printf("%d is positive\n", n);
+			printf("%d is positive\n", n);
 		}
 		else
 		{
@@ -31,4 +30,3 @@ int main(void)
 	}
 	return (0);
 }
-	
