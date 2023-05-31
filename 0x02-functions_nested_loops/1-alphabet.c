@@ -10,17 +10,9 @@
 
 void print_alphabet(void)
 {
-	char c = a;
+	char letter;
 
-	while (c <= 'z')
-	{
-		_putchar(c);
-		c++;
-	}
-	_putchar('\n')
-}
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
+	for (letter = 'a'; letter <= 'z'; letter++)
+		_putchar(letter)
+
+			_putchar ('\n');
