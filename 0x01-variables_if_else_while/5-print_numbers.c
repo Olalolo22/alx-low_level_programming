@@ -7,9 +7,13 @@
 
 int main(void)
 {
-	for (int dem = 0; dem < 10; dem++
-			{
-			printf("%d\n", dem);
-			}
-			return (0);
+	int dnum;
+
+	for (dnum = 0; dnum < 10; dnum++)
+	{
+		putchar(dnum + '0');
+	}
+	putchar('\n');
+
+	return (0);
 }
